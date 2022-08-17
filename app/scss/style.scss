@@ -109,9 +109,6 @@
 			}
 		}
 	}
-	&__social-link{
-
-	}
 	&__title{
 		margin-bottom: 40px;
 		color: $title;
@@ -704,6 +701,9 @@
 		display: inline-block;
 		margin-top: 12px;
 		color: $accent;
+	}
+	&__text{
+		margin-bottom: 25px;
 	}
 }
 
