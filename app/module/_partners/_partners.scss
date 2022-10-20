@@ -7,3 +7,24 @@
 		align-items: center;
 	}
 }
+@media (max-width: 620px){
+	.partners{
+		padding-top: 60px;
+		&__list{
+			flex-wrap: wrap;
+			justify-content: center;
+			height: auto;
+			padding-bottom: 60px;
+		}
+		&__item{
+			margin: 10px 35px;
+		}
+	}
+}
+@media (max-width: 500px){
+	.partners{
+		&__item{
+			margin: 10px 25px;
+		}
+	}
+}
